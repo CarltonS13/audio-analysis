@@ -6,7 +6,7 @@ from progress_bar import printProgressBar
 
 directory = r"/Volumes/Carl'S/Music"
 subf, files = run_fast_scandir(
-    directory, [".flac"])
+    directory, [".flac", ".mp3"])
 
 files_length = len(files)
 files_count = 0
